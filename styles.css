@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #718355;
+    margin: 0;
+}
+
+.card {
+    background: #87986A;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 700px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.profile-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+    flex: 2;
+    padding: 30px;
+    color: #fff;
+}
+
+.card-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.card-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.card-content p span {
+    font-weight: 600;
+}
+
+.card-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
